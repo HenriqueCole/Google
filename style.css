@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #353535;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: end;
+    column-gap: 19px;
+}
+
+.containerGmailImages{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.login:hover{
+    background-color: #155cb9;
+}
+
+.apps{
+    margin: 8px;
+    width: 34px;
+    height: 27px;
+}
+.apps:hover{
+    background-color: #4b4b4b;
+    border-radius: 50px;
+}
+
+.googleLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0px 0px 0px;
+}
+
+.logo{
+    height: 96px;
+}
+
+.containerInput{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+}
+
+.containerSearch{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.containerMic{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.inputIcons{
+    position: absolute;
+    color: gray;
+    height: 20px;
+    margin: 15px;
+}
+
+input{
+    height: 41px;
+    width: 550px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0px 41px 0px 41px;
+    font-size: 16px;
+}
+
+.containerFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    height: 112px;
+    width: 112px;
+    border-radius: 5px;
+    transition: 0.08s;
+    cursor: pointer;
+}
+.containerCard:hover{
+    background-color: #ffffff0d;
+}
+
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 13px 0px 0px 12px;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.containerButton{
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    display: flex;
+}
+
+.customize{
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: #84b4f8;
+    height: 32px;
+    border-radius: 50px;
+    width: 160px;
+    cursor: pointer;
+    box-shadow: black 0px 2px 6px -1px;
+    transition: 0.2s;
+}
+.customize:hover{
+    background-color: #262e39;
+}
+
+.pen{
+    margin: -3px 3px -4px 0px;
+    height: 20px;
+}
+
+
